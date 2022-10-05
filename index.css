@@ -1,0 +1,27 @@
+body{
+    background:#eeeeee;
+    line-height:150%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.center{
+    text-align:center /* 1.you can use the value of the class to change all tags with the same value2.tags in a parent tag take on the characteristics of its parent*/ 
+}
+
+/* customisizing a tag using id*/ 
+#first-list-item{
+    color:blue;
+}
+
+figure{
+    background-color:white;
+}
+/* wanted to apply property to different tags put comma*/
+section, blockquote{
+    max-width:600px;
+    margin:auto;
+}
+
+li{
+    margin:6px;
+}
